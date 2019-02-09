@@ -1,0 +1,138 @@
+body{
+    background: rgb(31, 10, 124);
+    color: red;
+    font-size: 100%;
+    margin: 2%;
+    font-family: 'Sanchez', serif;
+}
+
+.fa-gamepad {
+    color: yellow;
+    font-size: 60px;
+    border: 2px solid black;
+    background: black
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2{
+    font-size: 150%;
+}
+
+h3{
+    font-size: 125%;
+}
+
+nav a{
+    color: orange;
+}
+a.current{
+    background: black;
+    color: rgb(9, 255, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid yellow
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ a.skip{
+    position: relative;
+    left: -1000px;
+    color: orange;
+}
+
+a.skip:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+img{
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+table, th, td {
+border: 3px solid black;
+}
+
+th, td{
+    height: 20px;
+}
+
+table.stats{
+    border-collapse: collapse;
+    width: 20%;
+}
+
+table.stats, th.stats, td.stats{
+    border: 3px solid black;
+}
+
+td.dex {
+    border-bottom: 1px solid black;
+  }
+
+.container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    background-image: url(../images/pokeball.jpg)
+    -webkit-flex-flow: row wrap;
+    flex-direction: row;
+
+    align-content: flex-start;
+}
+
+.first {
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    }
+
+.icon{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.container2{
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+    padding-left: 40px;
+    pading-right: 40px;
+    box-sizing: border-box;
+
+}
+
+/* 
+.icon {
+    width: 4.5em;
+    height: 2em;
+    align-self: auto;
+} */ 
+
+/* line-height: 150px;
+color: white;
+font-weight: bold;
+font-size: 3em;
+text-align: center; */
