@@ -1,12 +1,3 @@
-<!-- Images to be used: metagross, shiny_metagross, steel_type, psychic_type, 
-pokeball.jpg, pokeball for the icon, fighting_type, electric_type, normal_type, dark_type,
-ice_type, bug_type, rock_type, ground_type, poison_type, fire_type, water_type, ghost_type,
-flying_type, dragon_type
-
-The different types will have to be resized to be smaller, as I intend to replace the written type
-with the actual picture of the type. I will definitely have to resize the pokeball image for the icon. 
-I do not think I will need to resize the metagross, shiny_metagross, and pokeball.jpg images.-->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,12 +10,15 @@ I do not think I will need to resize the metagross, shiny_metagross, and pokebal
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script>
     <link rel='shortcut icon' href='images/pokeball.png' type='image/png'>
+    <link href="https://fonts.googleapis.com/css?family=Sanchez" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 
 <body>
     <a href="#content" class='skip'>Skip to Content</a>
         <header>
-            <h1>Metagross -- National Pokedex #736</h1>
+            <h1>Metagross</h1>
+            <h1>National Pokedex #736</h1>
         <nav> 
                 <ul>
                     <li><a href="index.html" class= 'other'>Beldum</a></li>
@@ -37,22 +31,50 @@ I do not think I will need to resize the metagross, shiny_metagross, and pokebal
         <main id='content'>
 
     <div class='container'>
-    <img src='images/metagross.jpg' alt="A picture of Metagross" title='A picture of Metagross'>
-    <img src='images/shiny_metagross.jpg' alt="A picture of Shiny Metagross" title='A picture of Shiny Metagross'>
-    </div>
+    <img class='first' src='images/metagross.jpg' alt="A picture of Metagross" title='A picture of Metagross'>
+    <img class='first' src='images/shiny_metagross.jpg' alt="A picture of Shiny Metagross" title='A picture of Shiny Metagross'>
 
     <table>
+            <caption><h2>Type</h2></caption>
             <tr>
-                <th>Type</th>
-            </tr>
-            <tr>
-                <td><img src='images/steel_type.png' alt="Steel Type Icon" title='Steel Type'><img src='images/psychic_type.png' alt="Psychic Type Icon" title='Psychic Type'></td>
+                <td><img class='icon' src='images/steel_type.png' alt="Steel Type Icon" title='Steel Type'><img class='icon' src='images/psychic_type.png' alt="Psychic Type Icon" title='Psychic Type'></td>
             </tr>
         </table>
+
+    <br>
+
+        <table>
+            <caption><h2>Base Stats</h2></caption>
+            <tr>
+                <td>HP</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Attack</td>
+                <td>135</td>
+            </tr>
+            <tr>
+                <td>Defense</td>
+                <td>130</td>
+            </tr>
+            <tr>
+                <td>Sp. Attack</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>Sp. Def</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Speed</td>
+                <td>70</td>
+            </tr>
+    </table>
 
         <br>
 
     <table>
+            <caption><h2>Size</h2></caption>
             <tr>
                 <th>Height</th>
                 <th>Weight</th>
@@ -66,9 +88,7 @@ I do not think I will need to resize the metagross, shiny_metagross, and pokebal
     <br>
 
     <table>
-            <tr>
-                <th>Egg Group</th>
-            </tr>
+            <caption><h2>Egg Group</h2></caption>
             <tr>
                 <td>Mineral</td>
             </tr>
@@ -76,66 +96,27 @@ I do not think I will need to resize the metagross, shiny_metagross, and pokebal
 
     <br>
 
-    <h2>Abilities</h2>
    <table>
+        <caption><h2>Abilities</h2></caption>
        <tr>
            <td>Clear Body</td>
            <td>Light Metal -- Hidden Ability</td>
        </tr>
     </table>
-    <br>
-
-    <h2>Pokedex Entry</h2>
-    <table>
-        <tr class='dex'>
-            <td class='dex'>Ultra Sun</td>
-            <td class='dex'>It boasts not only psychic powers but also fantastic strength. It grabs its prey with its four legs and holds them in place with its claws.</td>
-        </tr>
-        <tr class='dex'>
-            <td class='dex'>Ultra Moon</td>
-            <td class='dex'>It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner.</td>
-        </tr>
-    </table>
 
     <br>
 
-    <h2>Base Stats</h2>
-    <table class="stats">
-        <tr>
-            <td class="stats">HP</td>
-            <td class="stats">80</td>
-        </tr>
-        <tr>
-            <td class='stats'>Attack</td>
-            <td class='stats'>135</td>
-        </tr>
-        <tr>
-            <td class='stats'>Defense</td>
-            <td class='stats'>130</td>
-        </tr>
-        <tr>
-            <td class='stats'>Sp. Attack</td>
-            <td class='stats'>95</td>
-        </tr>
-        <tr>
-            <td class='stats'>Sp. Def</td>
-            <td class='stats'>90</td>
-        </tr>
-        <tr>
-            <td class='stats'>Speed</td>
-            <td class='stats'>70</td>
-        </tr>
-</table>
-
-<br>
-
-<h2>Egg Moves</h2>
-<h3>None</h3>
-
-<br>
-
-<h2>Moves by Level Up</h2>
     <table>
+            <caption><h2>Egg Moves</h2></caption>
+            <tr>
+                <td>None</td>
+            </tr>
+        </table>
+
+<br>
+
+    <table>
+        <caption><h2>Moves by Level Up</h2></caption>
         <tr>
           <th>Level</th>
           <th>Move</th> 
@@ -616,8 +597,21 @@ I do not think I will need to resize the metagross, shiny_metagross, and pokebal
     </table>
   
     <br>
+
+    <table>
+        <caption><h2>Pokedex Entry</h2></caption>
+        <tr>
+            <td>Ultra Sun</td>
+            <td>It boasts not only psychic powers but also fantastic strength. It grabs its prey with its four legs and holds them in place with its claws.</td>
+        </tr>
+        <tr>
+            <td>Ultra Moon</td>
+            <td>It analyzes its opponents with more accuracy than a supercomputer, which enables it to calmly back them into a corner.</td>
+        </tr>
+    </table>
     
-  <footer>Pokémon images & names © 1995-2019 Nintendo/Game Freak.</footer>
+    <footer><i class="fas fa-gamepad"></i><h3>Pokémon images & names © 1995-2019 Nintendo/Game Freak.</h3></footer>
+</div>
 </main>
 </body>
 </html>
