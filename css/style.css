@@ -1,5 +1,6 @@
 body{
-    color: red;
+    color: white;
+    background: red;
     font-size: 100%;
     margin: 2%;
     font-family: 'Sanchez', serif;
@@ -13,16 +14,20 @@ body{
 }
 
 h1{
-    font-size: 300%;
+    font-size: 200%;
 }
 
 h2{
     font-size: 150%;
 }
 
-/* nav a{
-    color: orange;
-} */
+h3{
+    font-size: 66%;
+}
+
+nav a{
+    color: white;
+}
 
 nav ul{
     display: flex;
@@ -39,9 +44,9 @@ nav ul li{
     border-width: 2px;
     text-align: center;
     font-size: 100%;
-    background-image: -webkit-linear-gradient(top left, rgb(255, 217, 0), rgb(230, 215, 173));
-    background-image: -o-linear-gradient(top left, rgb(255, 217, 0), rgb(230, 215, 173));
-    background-image: linear-gradient(to bottom right, rgb(255, 217, 0), rgb(230, 215, 173));
+    background-image: -webkit-linear-gradient(top left, black, grey);
+    background-image: -o-linear-gradient(top left, black, grey);
+    background-image: linear-gradient(to bottom right, black, grey);
 }
 
 a.current{
@@ -58,7 +63,7 @@ p{
  a.skip{
     position: relative;
     left: -1000px;
-    color: orange;
+    color: white;
 }
 
 a.skip:focus{
