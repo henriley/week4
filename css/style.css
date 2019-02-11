@@ -6,7 +6,20 @@ body{
     font-family: 'Sanchez', serif;
 }
 
-/* background-image: url(../images/pokeball.jpg.jpg); */
+footer{
+	min-height: 5vh;
+}
+
+.home{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+  
+  .bg-image{
+    background-image: url(../images/square_pokeball.png);
+    background-repeat: no-repeat;
+    font-family: 'Sanchez', serif;
+  }
 
 .fa-gamepad {
     color: black;
@@ -19,6 +32,13 @@ h1{
 
 h2{
     font-size: 150%;
+}
+
+.metagross{
+    font-size: 145%;
+}
+.mega_metagross{
+    font-size: 115%;
 }
 
 h3{
@@ -36,14 +56,14 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    width: 25%;
+    width: 15%;
     background: white;
     padding: 3%;
     min-height: 20px;
     line-height: 20px;
     border-width: 2px;
     text-align: center;
-    font-size: 100%;
+    font-size: 77%;
     background-image: -webkit-linear-gradient(top left, black, grey);
     background-image: -o-linear-gradient(top left, black, grey);
     background-image: linear-gradient(to bottom right, black, grey);
@@ -105,4 +125,13 @@ th, td{
 .first{
     height: 40%;
     width: 40%;
+}
+
+.chain{
+    height: 100%;
+    width: 100%;
+    align-content: space-between;
+    padding-top: 22%;
+    margin-top: 35%;
+    padding-bottom: 8%;
 }
